@@ -10,6 +10,9 @@ public class SumUsingRecursion {
 
         SumUsingRecursion obj = new SumUsingRecursion();
 
+        int sum = obj.sumOfNumber(number);
+        System.out.println("The sum is : " + sum);
+
     }
 
     public int sumOfNumber(int number) {
